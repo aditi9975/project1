@@ -1,0 +1,145 @@
+header{
+    font-family: "https://coolors.co/assets/img/google_fonts/Abril%20Fatface.png";
+    font-size: medium;
+      margin: 5px;
+      padding: 2px;
+      background-color: #f8961e;
+      background-image: repeating-linear-gradient(120deg,#d1e8e9,#4d5151);
+      color: rgb(16, 53, 60)34;
+    }
+  
+   
+  #o{
+    font-family: "https://coolors.co/assets/img/google_fonts/Abril%20Fatface.png";
+    font-size:xx-large;
+      margin: 5px;
+      padding: 2px;
+      background-color: #f8961e;
+      background-image: repeating-linear-gradient(120deg,#34475a,#4d5151);
+    }
+  .btn {
+
+       padding: 0.5rem 2rem;
+       background-color: aliceblue;
+       border: 3px solid #ccc;
+       display: inline-block;
+       margin: 2rem 0 0;
+    border-radius: 50px;
+     text-decoration:double;
+     color: #2e2c29;
+position:relative;
+transition: background 500ms ease;
+text-align: left;
+}
+
+.btn:hover {
+background: #8a8181;
+}  
+  img{
+    background-color: beige;
+    border-width: 20px;
+    text-emphasis-style:inherit;
+    float: left;
+    margin-right: 15px;
+    
+  }
+  
+ #he{
+    background-image: repeating-linear-gradient(120deg,#34475a,#4d5151);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button{
+  /* box-shadow:  30px 30px 10px black; */
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  background-color: #34475a;
+  color: aliceblue;
+
+ 
+}
+ .a{
+      /* background-image: repeating-linear-gradient(120deg,#34475a,#4d5151); */
+  }
+  .b{
+   color: rgb(0, 94, 255); 
+   position: absolute;  
+   left: 91vmax;
+   top: 1px;
+   font-size: xx-large;
+  }
+  .c{
+   background-image: linear-gradient(30deg,rgb(106, 0, 255),rgb(169, 29, 229),#ca18b5); 
+   color: aliceblue;
+   position: absolute;  
+   left: 95vmax;
+   top: 1px;
+   font-size: xx-large;
+   
+  }
+
+  #a
+      {grid-area: a1;
+        
+      }
+  #b{grid-area: b1;}
+  #c{grid-area: c1;}
+  #d{grid-area: d1;}
+  #e{grid-area: e1;}
+  #f{grid-area: f1;}
+   
+
+  #mydiv{
+      display:grid;
+      grid-template-areas: 'a1 a1 a1 a1 a1 a1 '
+      'b1 b1 b1 b1 b1 b1'
+      'c1 c1 c1 c1 c1 c1'
+      'd1 d1 d1 d1 d1 d1 ';
+    
+      color:#34475a;
+      background-image:linear-gradient(120deg,rgb(240, 232, 232),rgb(226, 217, 217),rgb(252, 250, 247));
+      text-align:center;font-size: medium;font-family: "https://coolors.co/font/abril-fatface";
+      /* box-shadow: 10px 10px 15px black,-10px -10px -15px black; */
+      padding: 20px;
+      margin: 20px;
+      
+      border-radius: 0px;
+      border-style:solid;
+      border-width: 10px;
+  }
+  #mydiv > div{
+      background-color:rgb(235, 244, 244);
+      grid-gap:20px;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow:10px 10px 20px lightblue;
+  }
+  #po{
+    
+    font-size: 80px;
+    background-position: center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    flex: 0 1 60vw;
+    margin-top: 0cqmax;
+    
+    background-image: url("https://www.mistay.in/travel-blog/content/images/2020/06/varanasi.jpg");
+    background-size:cover;
+    /* color: rgb(52, 50, 50); */
+}
+body{
+  background-image: repeating-linear-gradient(60deg,honeydew,honeydew);
+   /* color: honeydew;  */
+  
+}
+#im{
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  text-align: justify;
+
+  }
+  
